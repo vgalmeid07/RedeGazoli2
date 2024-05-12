@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!doctype html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>   
+     <title>Rede Gazoli - Auto Posto Gazoli</title>
+
+     <style>
+        
+        #logo{
+            height: 95px;
+            width: 95px;
+            margin-top: 25px;
+            margin-left: 25px;
+            margin-top: 5px;
+    }
+        body{
+            background-color: rgb(255, 255, 255);
+
+    }
+        .principal{
+            height: 105px;
+            background-color: black;
+            border-radius: 5px 15px;
+            
+
+    }
+        .rodape{
+            height: 150px;
+            background-color: black;
+            border-radius: 15px 1px;
+            color: beige;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            
+               
+        }
+
+
+        #linkes{
+            border: 0;
+            padding: 5px 15px;
+            font-family: cursive;
+            text-decoration: none;
+            color:rgb(255, 255, 255);
+            margin: 5px; 
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 5px 5px;
+            background-color: #ffd900;
+            background-image: linear-gradient(
+            to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0)
+        );
+            box-shadow: 
+            inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+            inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    }   
+        #linkes:hover {
+            background-color: rgb(255, 0, 0);
+    } 
+        #images{
+        height: 600px;
+        width: 800px;
+        margin-left: 280px;
+        
+    }
+        #imgs{
+        height: 450px;
+        width: 400px;
+        margin-top: -200px;
+
+    }
+
+    
+    .vertical{
+        border-left: 2px solid rgb(255, 255, 255); 
+        height: 100px; 
+        margin: -96px 20px;
+        margin-left: 620px;
+        
+    }
+
+    
+
+    #busca{
+    width: 350px;
+    margin: auto; 
+    border-color: rgb(223, 27, 27);
+    border:3px;
+    margin-left: 350px;
+    margin-top: 10px;  
+}
+#busca2{
+    width: 90px;
+    height: 38px;
+    margin-top: 9px;
+}
+
+      
+
+         .styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  font-family: cursive  ;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #ffd900;    ;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+  background-color: rgb(197, 9, 9);
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+
+.botao-hover {
+  background-color: rgb(13, 139, 223);
+  color: #ffffff;
+  border: none;
+  padding: 2px 5px;
+  border-radius: 50px;
+  transition: background-color 0.3s ease;
+}
+
+.botao-hover:hover {
+  background-color: #1a26ce;
+}
+
+.texto-colorido {
+  color:rgb(255, 255, 255); 
+  transition: color 0.40s ease; 
+  padding-left: 50px;
+  font-family: cursive;
+}
+
+.texto-colorido:hover {
+  color: rgb(221, 200, 11); 
+}
+
+
+#pResultado{
+    height: 50px;
+    
+    
+}
+
+
+
+
+.quadrado2{
+    background-color: rgb(8, 8, 8);
+    width: 900px; 
+  height: 680px; 
+  border: 1px solid rgb(250, 245, 245);
+  margin-left: 550px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  border-radius: 15px 15px;
+ 
+  
+}
+
+#popo{
+    border-radius: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(233, 233, 233)     ;
+        }
+        
+        #promo{
+            height: 620px;
+            width:  400px;
+            margin-top: -705px;
+            margin-left: 100px;
+            border-radius: 10px;
+
+        }
+        h1{
+            color: black;
+            text-align: center;
+            background-color: rgb(228, 205, 0);
+        }
+
+
+
+
+
+        
+        
+       
+       
+     </style>
+    </head>
+    <body>
+        
+
+<div class="principal">
+    
+        <img src="gazoli.png" id="logo">
+
+        
+        <a href="file:///C:/Users/Vinicius%20Gabriel/Documents/site/principal.html" id="linkes"> &nbsp;&nbsp; Principal &nbsp;&nbsp;</a>
+        <a href="file:///C:/Users/Vinicius%20Gabriel/Documents/sitegazoli/preco.html" id="linkes">&nbsp;&nbsp; Preço &nbsp;&nbsp;</a>
+        <a href="" id="linkes">&nbsp;&nbsp; Sobre &nbsp;&nbsp;</a>
+        <a href="" id="linkes">&nbsp;&nbsp; Fotos &nbsp;&nbsp;</a>
+
+        <div class="vertical"></div>
+
+        <form class="d-flex" role="search" id="busca">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Pesquisar"
+                id="busca">
+            <button class="btn btn-outline-light" type="submit" id="busca2">Pesquisar</button>
+        </form>
+
+      
+</div>
+<hr><br><br><br>    
+
+        
+   
+<div class="quadrado2"><br>
+    <h1>𝗖𝗮𝗹𝗰𝘂𝗹𝗼 𝗱𝗲 𝗚𝗮𝘀𝘁𝗼:</h1>
+           
+   
+
+    <div id="popo">
+        <div class="itens">
+            <p class="texto-colorido">Distância: </p><input  type="text" placeholder="Ex: 50KM"> <br><br>
+            
+        
+     </div><br>
+
+     <div id="popo">
+        <div class="itens">
+            <p class="texto-colorido">Valor combustivel </p><input type="text" placeholder="Ex: 2,75$"><br><br>
+        
+     </div><br>
+
+     <div id="popo">
+        <div class="itens">
+            <p class="texto-colorido">KM/p Litro: </p><input type="text" placeholder="Ex: 10KM/p Litro"> <br><br></div>
+
+            <div id="popo">
+                <div class="itens">
+            
+    
+                    <p class="texto-colorido">Ida e volta? </p> <center><input type="checkbox" id="p"></center><br><br>
+
+        </div>
+
+        
+
+
+
+              <button class="favorite styled" type="button " onclick="CalcularMedia()" >Status </button></div><br>
+
+              <div>
+                <p class="texto-colorido"></p><input type="text" id="pResultado" > 
+               
+              </div>
+            </div>
+          </div>
+            </div>
+              </div>
+             
+            </div><img src="gazoli5.png" id="promo">
+            <br> <br> <br> <br>  
+    
+
+
+
+    
+        
+ 
+
+
+
+
+
+
+
+  <div class="rodape">
+       <br><h4><marquee behavior="scroll" direction="left">Desenvolvedor: Vinícius Gabriel de Almeida</marquee> </h4>
+       <h5>Auto posto Castelo Branco - Adamantina</h5>
+       <h7>(18)3522-6996</h7>
+    
+    
+
+  </div>
+  
+  
+
+    
+   
+
+</body>
+</html>
